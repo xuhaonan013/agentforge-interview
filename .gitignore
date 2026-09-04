@@ -1,0 +1,50 @@
+# Build and dependency output
+.gradle/
+**/build/
+app/bin/
+frontend/node_modules/
+frontend/dist/
+frontend/test-results/
+frontend/playwright-report/
+frontend/coverage/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.log
+logs/
+tmp/
+temp/
+test-output.txt
+
+# Local agent/editor notes
+.claude/
+AGENTS.md
+CLAUDE.md
+SETUP_API_KEYS.md
+
+# Private benchmark inputs and generated reports
+benchmarks/**/__pycache__/
+benchmarks/**/.cache/
+benchmarks/**/results/
+benchmarks/**/v2/corpus.jsonl
+benchmarks/**/v2/dataset.json
+benchmarks/**/v2/queries.jsonl
+benchmarks/**/v2/qrels.tsv
+benchmarks/**/v2/manifest.json
+benchmarks/**/v2/*.run.tsv
+benchmarks/**/private-data/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+

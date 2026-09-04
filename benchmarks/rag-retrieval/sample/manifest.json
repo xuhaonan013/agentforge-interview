@@ -1,0 +1,14 @@
+{
+  "dataset_version": "sample-1.0.0",
+  "seed": 20260902,
+  "source_dir": "synthetic-sample",
+  "document_count": 12,
+  "query_count": 20,
+  "answerable_count": 16,
+  "no_answer_count": 4,
+  "split_counts": {
+    "dev": 6,
+    "test": 14
+  },
+  "license": "synthetic-public-sample"
+}

@@ -1,0 +1,7 @@
+services:
+  app:
+    environment:
+      APP_BENCHMARK_ENABLED: "true"
+      APP_BENCHMARK_TOKEN: ${APP_BENCHMARK_TOKEN:-local-only-benchmark-token}
+    ports: !override
+      - "127.0.0.1:8080:8080"
