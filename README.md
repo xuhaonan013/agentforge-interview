@@ -2,6 +2,8 @@
 
 AgentForge Interview 是一个面向个人求职者的 AI 面试工作台：上传简历后生成结构化分析，基于知识库进行检索增强问答，并提供文字面试、实时语音面试和可追踪的异步评估流程。
 
+项目维护者：[@xuhaonan013](https://github.com/xuhaonan013)
+
 ## 功能概览
 
 - 简历解析、异步 AI 评估与结构化报告导出
@@ -135,12 +137,6 @@ pnpm build
 git status --short
 git diff --check
 ~~~
-
-## 上游来源与许可证
-
-本项目是基于 [Snailclimb/interview-guide](https://github.com/Snailclimb/interview-guide) 的 AGPL-3.0 修改版，保留原许可证和必要的归属说明。当前版本命名为 AgentForge Interview，并对包名、配置、运行编排、前端界面、评测工具和文档进行了修改；具体说明见 NOTICE.md。
-
-AGPL-3.0 要求发布修改后的完整对应源代码；通过网络向用户提供本服务时，也应向用户提供相应源代码。部分依赖（例如 iText）有独立的许可证要求，请在部署和再分发前分别核对。
 
 ## 贡献
 
